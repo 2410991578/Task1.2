@@ -36,7 +36,7 @@ def loginWithPass(sid, rmn, pwd):
         if responseMessage == "Logged in successfully.":
             print(responseMessage)
             print("\n")
-            print("**********************************************")
+            print("********************************************")
             print("Saving user details to userDetails.json so that you don't have to login again")
 
             user.update({
